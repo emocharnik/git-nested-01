@@ -6,5 +6,5 @@ resource "random_pet" "nested_01" {
 }
 
 output "nested_01_pet" {
-  value = resource.random_pet.nested_01.id
+  value = random_pet.nested_01.id
 }
